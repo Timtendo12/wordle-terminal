@@ -1,0 +1,20 @@
+{
+  "name": "wordle-terminal",
+  "version": "1.0.0",
+  "description": "Fuck the website. Worlde in terminal for the real people.",
+  "main": "src/index.js",
+  "scripts": {
+    "wordle": "node ."
+  },
+  "keywords": [
+    "wordle",
+    "game",
+    "terminal"
+  ],
+  "author": "Timtendo12",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "terminal-kit": "^2.4.0"
+  }
+}
