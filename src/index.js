@@ -59,10 +59,10 @@ function getWord(){
         //since the request responds with the string inside the <body> tag + the whole doctype HTML,
         // We will only need the first 5 characters
         word = body.substring(0, 5);
+        if (config.debugMode === "true") console.log('\nword:', word);
             for (let i = 0; i < word.length; i++) {
                 letters.push(word.charAt(i));
                 if (config.debugMode === "true") {
-                    console.log('\nword:', word)
                     console.log(word.charAt(i));
                     console.log(letters);
                 }
